@@ -1,0 +1,38 @@
+[
+    {
+        "model": "raterapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "Action"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "RPG"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "First Person Shooter"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 4,
+        "fields": {
+            "label": "Puzzle"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 5,
+        "fields": {
+            "label": "Sports"
+        }
+
+    }
+]
