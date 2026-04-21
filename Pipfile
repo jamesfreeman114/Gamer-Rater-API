@@ -12,6 +12,7 @@ django-cors-headers = "*"
 pylint-django = "*"
 
 [dev-packages]
+pylint-django = "*"
 
 [requires]
 python_version = "3.12"
