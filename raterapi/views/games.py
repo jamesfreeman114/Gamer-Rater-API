@@ -1,9 +1,11 @@
 from rest_framework import serializers, viewsets, status
 from rest_framework.response import Response
 from raterapi.models import Game
+from raterapi.views.reviews import ReviewSerializer
 
 
 class GameSerializer(serializers.ModelSerializer):
+    reviews = ReviewSerializer(many=True, read_only=True)
     class Meta:
         model = Game
         fields = (
@@ -16,6 +18,7 @@ class GameSerializer(serializers.ModelSerializer):
             'estimated_time',
             'age_recommendation',
             'user_id',
+            'reviews',
         )
 
 
