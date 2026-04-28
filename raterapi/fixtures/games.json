@@ -1,0 +1,282 @@
+[
+    {
+        "model": "raterapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "description": "An open-world adventure where you explore the kingdom of Hyrule, solve puzzles, and battle enemies to defeat Calamity Ganon.",
+            "designer": "Nintendo",
+            "year_released": 2017,
+            "num_players": 1,
+            "estimated_time": 120,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Minecraft",
+            "description": "A sandbox survival game where players mine resources, craft tools, and build anything they can imagine in a procedurally generated world.",
+            "designer": "Mojang Studios",
+            "year_released": 2011,
+            "num_players": 10,
+            "estimated_time": 60,
+            "age_recommendation": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Stardew Valley",
+            "description": "A farming simulation RPG where you inherit a rundown farm and work to restore it while building relationships with townsfolk.",
+            "designer": "ConcernedApe",
+            "year_released": 2016,
+            "num_players": 4,
+            "estimated_time": 90,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "Among Us",
+            "description": "A social deduction game set in space where crewmates complete tasks while trying to identify the hidden impostors among them.",
+            "designer": "InnerSloth",
+            "year_released": 2018,
+            "num_players": 15,
+            "estimated_time": 15,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 5,
+        "fields": {
+            "title": "Elden Ring",
+            "description": "A dark fantasy action RPG set in the Lands Between, featuring challenging combat, deep lore, and a vast open world.",
+            "designer": "FromSoftware",
+            "year_released": 2022,
+            "num_players": 4,
+            "estimated_time": 120,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 6,
+        "fields": {
+            "title": "Halo: Combat Evolved",
+            "description": "A landmark first-person shooter following Master Chief battling the alien Covenant and the parasitic Flood across alien ringworlds.",
+            "designer": "Bungie",
+            "year_released": 2001,
+            "num_players": 16,
+            "estimated_time": 60,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 7,
+        "fields": {
+            "title": "Super Mario Odyssey",
+            "description": "A 3D platformer where Mario travels across diverse kingdoms collecting Power Moons to rescue Princess Peach from Bowser.",
+            "designer": "Nintendo",
+            "year_released": 2017,
+            "num_players": 2,
+            "estimated_time": 60,
+            "age_recommendation": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 8,
+        "fields": {
+            "title": "FIFA 23",
+            "description": "The latest entry in EA's football simulation series featuring updated rosters, improved animations, and multiple competitive modes.",
+            "designer": "EA Sports",
+            "year_released": 2022,
+            "num_players": 22,
+            "estimated_time": 20,
+            "age_recommendation": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 9,
+        "fields": {
+            "title": "Portal 2",
+            "description": "A mind-bending first-person puzzle game where players use a portal gun to solve increasingly complex physics-based challenges.",
+            "designer": "Valve",
+            "year_released": 2011,
+            "num_players": 2,
+            "estimated_time": 90,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 10,
+        "fields": {
+            "title": "Red Dead Redemption 2",
+            "description": "An epic open-world western following outlaw Arthur Morgan as the Van der Linde gang faces the end of the frontier era.",
+            "designer": "Rockstar Games",
+            "year_released": 2018,
+            "num_players": 32,
+            "estimated_time": 120,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 11,
+        "fields": {
+            "title": "Tetris Effect",
+            "description": "A stunning reimagining of the classic block puzzle game with immersive music and visuals that react to your gameplay.",
+            "designer": "Enhance Games",
+            "year_released": 2018,
+            "num_players": 1,
+            "estimated_time": 30,
+            "age_recommendation": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 12,
+        "fields": {
+            "title": "Call of Duty: Modern Warfare",
+            "description": "A gritty military first-person shooter with a cinematic campaign and a highly competitive multiplayer suite.",
+            "designer": "Infinity Ward",
+            "year_released": 2019,
+            "num_players": 18,
+            "estimated_time": 45,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 13,
+        "fields": {
+            "title": "The Witcher 3: Wild Hunt",
+            "description": "A massive open-world RPG following Geralt of Rivia as he hunts for his adopted daughter while navigating political turmoil.",
+            "designer": "CD Projekt Red",
+            "year_released": 2015,
+            "num_players": 1,
+            "estimated_time": 120,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 14,
+        "fields": {
+            "title": "NBA 2K23",
+            "description": "A basketball simulation game featuring lifelike player animations, deep career modes, and online competitive leagues.",
+            "designer": "Visual Concepts",
+            "year_released": 2022,
+            "num_players": 10,
+            "estimated_time": 20,
+            "age_recommendation": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 15,
+        "fields": {
+            "title": "Dark Souls",
+            "description": "A notoriously difficult action RPG set in the crumbling kingdom of Lordran where death is a core mechanic and patience is rewarded.",
+            "designer": "FromSoftware",
+            "year_released": 2011,
+            "num_players": 4,
+            "estimated_time": 90,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 16,
+        "fields": {
+            "title": "Celeste",
+            "description": "A precision platformer following Madeline as she climbs Celeste Mountain, dealing with her inner demons along the way.",
+            "designer": "Matt Thorson",
+            "year_released": 2018,
+            "num_players": 1,
+            "estimated_time": 60,
+            "age_recommendation": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 17,
+        "fields": {
+            "title": "Overwatch 2",
+            "description": "A team-based hero shooter where two teams of five compete across objective-based maps using a roster of unique heroes.",
+            "designer": "Blizzard Entertainment",
+            "year_released": 2022,
+            "num_players": 10,
+            "estimated_time": 30,
+            "age_recommendation": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 18,
+        "fields": {
+            "title": "Divinity: Original Sin 2",
+            "description": "A deep turn-based RPG with rich storytelling, complex elemental combat, and full cooperative multiplayer support.",
+            "designer": "Larian Studios",
+            "year_released": 2017,
+            "num_players": 4,
+            "estimated_time": 120,
+            "age_recommendation": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 19,
+        "fields": {
+            "title": "Hollow Knight",
+            "description": "A challenging action-adventure set in a vast underground kingdom of insects, with tight combat and atmospheric exploration.",
+            "designer": "Team Cherry",
+            "year_released": 2017,
+            "num_players": 1,
+            "estimated_time": 90,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 20,
+        "fields": {
+            "title": "Super Smash Bros. Ultimate",
+            "description": "A crossover fighting game featuring over 80 playable characters from gaming history battling across iconic stages.",
+            "designer": "Nintendo",
+            "year_released": 2018,
+            "num_players": 8,
+            "estimated_time": 30,
+            "age_recommendation": 10,
+            "user": 1
+        }
+    }
+]

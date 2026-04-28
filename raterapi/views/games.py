@@ -4,8 +4,10 @@ from raterapi.models import Game
 from raterapi.views.reviews import ReviewSerializer
 
 
+
 class GameSerializer(serializers.ModelSerializer):
     reviews = ReviewSerializer(many=True, read_only=True)
+    average_rating = serializers.FloatField(read_only=True)
     class Meta:
         model = Game
         fields = (
@@ -19,6 +21,7 @@ class GameSerializer(serializers.ModelSerializer):
             'age_recommendation',
             'user_id',
             'reviews',
+            'average_rating'
         )
 
 
@@ -28,6 +31,14 @@ class GameViewSet(viewsets.ViewSet):
         games = Game.objects.all()
         serializer = GameSerializer(games, many=True)
         return Response(serializer.data)
+
+    def retrieve(self, request, pk=None):
+        try:
+            game = Game.objects.get(pk=pk)
+            serializer = GameSerializer(game)
+            return Response(serializer.data)
+        except Game.DoesNotExist:
+            return Response({'message': 'Game not found'}, status=status.HTTP_404_NOT_FOUND)
 
     def create(self, request):
         serializer = GameSerializer(data=request.data)
