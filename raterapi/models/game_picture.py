@@ -4,7 +4,7 @@ from django.conf import settings
 class GamePicture(models.Model):
     game = models.ForeignKey(
         'Game',
-        on_delete=models.CASCADE,
+        on_delete=models.DO_NOTHING,
         related_name='pictures'
     )
     user = models.ForeignKey(
@@ -13,4 +13,6 @@ class GamePicture(models.Model):
         related_name='game_pictures'
 
     )
-    image = models.CharField(max_length=200)
+    action_pic = models.ImageField(
+        upload_to='actionimages', height_field=None,
+        width_field=None, max_length=None, null=True)
